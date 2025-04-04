@@ -1,0 +1,160 @@
+
+/* Estilo do contêiner para centralizar a imagem */
+.logo-container {
+  display: flex; /* Ativa o flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  background-color: #0b0505; /* Fundo para visualização (opcional) */
+  margin-top: 2%;
+}
+
+/* Estilo da imagem */
+#logo {
+  width: 125px; /* Define a largura da imagem */
+  height: 125px; /* Define a altura da imagem */
+  border-radius: 50%; /* Torna a imagem circular */
+  box-shadow: 0 0 15px 5px rgba(138, 43, 226, 0.75); /* Adiciona efeito neon */
+  object-fit: cover; /* Ajusta a imagem sem distorcer */
+}
+
+/* Estilo de texto com efeito */
+.ul { display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: auto;
+  text-align: center;
+  box-shadow: 0 0 15px 5px rgba(138, 43, 226, 0.75);
+}
+
+/* Main */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: #d942ec;
+  border-radius: 0%;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  box-shadow: 0 0 15px 5px rgba(138, 43, 226, 0.75);
+}
+
+#main img {
+  width: 15%;
+  height: 15%;
+}
+
+/* Certifiq e pro */
+.certifiq, .pro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 50px; /* Espaço entre os pares (ícone + texto) */
+  margin-top: 85px;
+}
+
+.item {
+  display: flex; /* Alinha ícone e texto na mesma linha */
+  align-items: center; /* Centraliza verticalmente ícone e texto */
+  gap: 15px; /* Espaço entre o ícone e o texto */
+}
+
+.icone {
+  width: 35px; /* Largura da imagem */
+  height: 35px; /* Altura da imagem */
+  border-radius: 50%; /* Deixa a imagem redonda */
+  object-fit: cover; /* Garante ajuste sem distorção */
+}
+
+/* Media Queries para tornar a página responsiva */
+
+/* Para dispositivos móveis */
+@media (max-width: 768px) {
+  #logo {
+      width: 100px; /* Ajusta o tamanho da imagem */
+      height: 100px; /* Ajusta o tamanho da imagem */
+  }
+
+  .footer {
+      flex-direction: column; /* Alinha os itens no rodapé em coluna */
+      margin-top: 20px;
+      gap: 20px; /* Menor espaçamento entre os ícones */
+  }
+
+  .item {
+      gap: 10px; /* Ajuste do espaçamento no item */
+  }
+
+  .main {
+      flex-direction: column; /* Alinha os itens do main em coluna */
+  }
+
+  #main img {
+      width: 30%; /* Ajusta a largura das imagens */
+      height: auto; /* Mantém a proporção */
+  }
+}
+
+/* Para tablets */
+@media (max-width: 1024px) {
+  #logo {
+      width: 110px; /* Ajusta o tamanho da imagem */
+      height: 110px; /* Ajusta o tamanho da imagem */
+  }
+
+  .footer {
+      gap: 30px; /* Ajusta o espaçamento entre os ícones no rodapé */
+  }
+
+  .item {
+      gap: 12px; /* Ajusta o espaçamento entre ícone e texto */
+  }
+
+  .main {
+      flex-direction: column; /* Alinha os itens do main em coluna */
+  }
+
+  #main img {
+      width: 20%; /* Ajusta a largura das imagens */
+      height: auto; /* Mantém a proporção */
+  }
+}
+
+/* Para desktop */
+@media (min-width: 1025px) {
+  #logo {
+      width: 125px; /* Tamanho padrão da imagem */
+      height: 125px; /* Tamanho padrão da imagem */
+  }
+
+  .footer {
+      flex-direction: row; /* Alinha os itens no rodapé em linha */
+      gap: 50px; /* Espaço entre os ícones */
+  }
+
+  .item {
+      gap: 15px; /* Ajuste do espaçamento entre ícone e texto */
+  }
+
+  .main {
+      flex-direction: row; /* Mantém os itens do main em linha */
+  }
+
+  #main img {
+      width: 15%; /* Tamanho padrão das imagens */
+      height: 15%; /* Tamanho padrão das imagens */
+  }
+}
+h1{font-family: Arial, Helvetica, sans-serif;}
+
+
+
+h2{font-family: Arial, Helvetica, sans-serif;}

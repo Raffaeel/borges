@@ -1,0 +1,49 @@
+.container{ 
+    
+    display: flex; /* Ativa o flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: #0b0505; /* Fundo para visualização (opcional) */
+    margin-top: 2%;
+    box-shadow: 0 0 15px 5px rgba(138, 43, 226, 0.75);
+  }
+
+  #logo{ display: flex;
+    width: 135px; /* Define a largura da imagem */
+    height: 135px; /* Define a altura da imagem */
+    border-radius: 55%; /* Torna a imagem circular */
+    box-shadow: 0 0 15px 5px rgba(138, 43, 226, 0.75); /* Adiciona efeito neon */
+    object-fit: cover; /* Ajusta a imagem sem distorcer */}
+
+   h1{display: flex;
+    justify-content: center;
+    font-size: medium,25px;
+ font-style: italic;}
+
+
+    h2{display: flex;
+       justify-content: center;
+       font-size: medium,25px;
+    font-style: italic;
+    }
+
+
+    #main { display:flex;
+        justify-content:space-evenly;
+        align-content: center;
+       height: 45px;
+        box-shadow: 0 0 15px 5px rgba(138, 43, 226, 0.75);
+      }
+      #main img{width: 28px;
+         height: 25px;}
+         
+
+         .rdp {display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+              
+    }  .rdp img{width: 55px;
+                 height: 55px;
+                border-radius: 25%;
+                margin-top: 75px;
+                box-shadow: 0 0 15px 5px rgba(138, 43, 226, 0.75);              }
