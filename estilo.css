@@ -71,7 +71,12 @@
         font-size: 14px;
     }
     
+    .link a{ display: flex;
+        justify-content:space-evenly;
+            text-decoration: none; 
+            color: black;
     
+    }
     
          
 
