@@ -1,6 +1,6 @@
 📌 Portfólio de Rafael Borges Oliveira
 
-Este é o meu portfólio pessoal, criado para apresentar minhas habilidades como desenvolvedor fullstack. O site inclui minhas hard skills, certificados, projetos e formas de contato.
+Este é o meu portfólio pessoal, criado para apresentar minhas habilidades como desenvolvedor front end junior. O site inclui minhas hard skills, certificados, projetos e formas de contato.
 
 🛠 Tecnologias Utilizadas
 
